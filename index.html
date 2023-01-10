@@ -8,16 +8,57 @@
     <title>Sign-up Form</title>
 </head>
 <body>
-    <div class="sidebar"> 
-        <div class="logoimage"></div>
-        <div class="imgowner"><p>Image by Casey on <unsplash class="com"></unsplash></p></div>
-    </div>
+    <div class="page">    
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./img/odin-lined.png" alt="logo" class="head">
+                <h1 class="odin">ODIN</h1>
+            </div>
+        </div>
 
-    <div class="container">
-        <div class="randomtext"></div>
-        <div class="input"></div>
-        <div class="createacc"></div>
-    </div>
-    
+        <div class="containerright">
+            <div class="randomtext left">
+                <p>This is not a real online service! You know you need something like this in your life to realise your deepest dreams!</p>
+                <p>Sign up <em>now</em> to get you started!</p>
+                <p class="floatingtext">You <em>know</em> you want to</p>
+            </div>
+            <form action="#">
+                <div class="form left">
+                    <p class="formtitle">Sign up here!</p>
+                    <div class="input">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="lirst-name" id="lirst-name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone-number">Phone number</label>
+                        <input type="text" name="phone-number" id="phone-number" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="input">
+                        <label for="confirm-password">Comfirm password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+                <div class="createacc left">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+            <div class="login left">
+                <p>Already have an account?</p>
+                <a href="#">Log In</a>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>

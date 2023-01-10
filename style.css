@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+.sidebar {
+    width: 40vw;
+    background-image: url(./img/unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.head {
+    height: 10vh;
+}
+
+h1 {
+    color: white;
+}
+
+.containerright {
+    display: flex;
+    width: 60vw;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.left {
+    padding-left: 3vw;
+}
+
+.randomtext {
+    width: 90%;
+    padding-left: 3vw;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.floatingtext {
+    margin: 40px 0 80px;
+}
+
+.form {
+    box-shadow: 0 10px 20px -2px rgb(255, 241, 241);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: beige;
+}
+
+.formtitle {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+button {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+    background-color: wheat;
+    color: white;
+}
+
+.login {
+    display: flex;
+    gap: 5px;
+}
